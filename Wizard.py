@@ -57,7 +57,6 @@ class Wizard:
                     self._health -= abs(self._spellEnergy - other._spellEnergy)
                     if self._health < 0:
                         self._health = 0
-        self._spellEnergy = 0
 
     # Decreases the opponent wizard health according to spell energy used by the wizard himself
     def one_player_standing(self, other):
@@ -65,7 +64,6 @@ class Wizard:
             other._health -= self._spellEnergy
             if self._health < 0:
                 self._health = 0
-        self._spellEnergy = 0
 
     # Getters
     def get_energy(self):
@@ -82,3 +80,6 @@ class Wizard:
 
     def get_shields_number(self):
         return self._wizardShield
+    
+    def reset_spell_energy(self):
+        self._spellEnergy = 0
