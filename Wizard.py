@@ -64,6 +64,7 @@ class Wizard:
             other._health -= self._spellEnergy
             if self._health < 0:
                 self._health = 0
+        self.reset_spell_energy()
 
     # Getters
     def get_energy(self):
