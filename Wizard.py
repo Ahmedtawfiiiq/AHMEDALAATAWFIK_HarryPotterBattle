@@ -2,8 +2,8 @@ class Wizard:
     def __init__(self, name, special_spells):
         self._name = name
         self._health = 100
-        self._energy = 150
-        self._wizardShield = 1
+        self._energy = 500
+        self._wizardShield = 3
         self._spellsDictionary = {
             "AvadaKedavra": 100,
             "Crucio": 40,
