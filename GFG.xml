@@ -1,0 +1,15 @@
+<MIA Game=""><Opening>
+        <HarryPotter type="Health">100</HarryPotter><HarryPotter type="Energy">50</HarryPotter>
+        <Voldemort type="Health">100</Voldemort><Voldemort type="Energy">150</Voldemort>
+        <HarryPotter type="Health">100</HarryPotter><HarryPotter type="Energy">50</HarryPotter>
+        <Voldemort type="Health">100</Voldemort><Voldemort type="Energy">150</Voldemort>
+        <HarryPotter type="Health">100</HarryPotter><HarryPotter type="Energy">50</HarryPotter>
+        <Voldemort type="Health">100</Voldemort><Voldemort type="Energy">130</Voldemort>
+        <HarryPotter type="Health">100</HarryPotter><HarryPotter type="Energy">50</HarryPotter>
+        <Voldemort type="Health">100</Voldemort><Voldemort type="Energy">50</Voldemort>
+        <HarryPotter type="Health">100</HarryPotter><HarryPotter type="Energy">10</HarryPotter>
+        <Voldemort type="Health">100</Voldemort><Voldemort type="Energy">50</Voldemort>
+        <HarryPotter type="Health">100</HarryPotter><HarryPotter type="Energy">10</HarryPotter>
+        <Voldemort type="Health">60</Voldemort><Voldemort type="Energy">10</Voldemort>
+        <Winner type="HarryPotter">HarryPotter is the winner ..</Winner>
+    </Opening></MIA>
