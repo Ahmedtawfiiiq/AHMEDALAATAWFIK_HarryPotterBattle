@@ -58,6 +58,8 @@ while True:
         wizard_voldemort.cast_spell(voldemort_spell)
         wizard_harry.two_players_game(wizard_voldemort)
         wizard_voldemort.two_players_game(wizard_harry)
+        wizard_harry.reset_spell_energy()
+        wizard_voldemort.reset_spell_energy()
 
     print('{:>19} {:>13}'.format(wizard_harry.get_name(), wizard_voldemort.get_name()))  # Printing start
 
